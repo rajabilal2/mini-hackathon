@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <script src=""></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+    <script src="https://www.gstatic.com/firebasejs/9.1.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.1.2/firebase-auth.js"></script>
+</head>
+
+<body>
+    <nav class="py-2 s border-bottom">
+        <div class="container d-flex s flex-wrap">
+            <h3 class="text-white">
+             Personal Blogging App
+            </h3>
+          <ul class="nav me-auto">
+          </ul>
+          <ul class="nav">
+            <li class="nav-item"><a href="#" class="nav-link link-body-emphasis text-white px-2">Inzamam Malik</a></li>
+            <li class="nav-item"><a href="../Signin/signin.html" class="nav-link link-body-emphasis text-white px-2">LogOut</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="container pf">
+        <header class="d-flex  py-3">
+          <ul class="nav">
+            <h2 class="text-left">Profile:</h2>
+          </ul>
+        </header>
+
+<!-- ====================Profile Area==================         -->
+<div class="pro-container">
+    <center> 
+    <img class="img" src="../imgs/14273842.jpg" alt="">
+
+<div class="name">
+    <h5>Inzamam Malik
+    <svg clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m11.25 6c.398 0 .75.352.75.75 0 .414-.336.75-.75.75-1.505 0-7.75 0-7.75 0v12h17v-8.749c0-.414.336-.75.75-.75s.75.336.75.75v9.249c0 .621-.522 1-1 1h-18c-.48 0-1-.379-1-1v-13c0-.481.38-1 1-1zm1.521 9.689 9.012-9.012c.133-.133.217-.329.217-.532 0-.179-.065-.363-.218-.515l-2.423-2.415c-.143-.143-.333-.215-.522-.215s-.378.072-.523.215l-9.027 8.996c-.442 1.371-1.158 3.586-1.264 3.952-.126.433.198.834.572.834.41 0 .696-.099 4.176-1.308zm-2.258-2.392 1.17 1.171c-.704.232-1.274.418-1.729.566zm.968-1.154 7.356-7.331 1.347 1.342-7.346 7.347z" fill-rule="nonzero"/></svg>
+</h5>
+</div>
+<!-- <div class="pro-input">
+    <h5>Password</h5>
+    <div class="input-wrapper">
+    <input type="password" placeholder="Old Password" name="" id="">
+    <br> <br>
+    <input type="password" placeholder="New Password" name="" id="">
+    <br> <br>
+    <input type="password" placeholder="Repeat Password" name="" id="">
+    <br> <br>
+    <button>Update</button>
+</div>
+</div> -->
+<div class="pro-input">
+    <h5>Reset Password</h5>
+    <div class="input-wrapper">
+      <form id="resetPasswordForm">
+        <input type="email" placeholder="Email" name="email" id="submit_data">
+        <br> <br>
+        <button type="submit" id="forget_email">Reset Password</button>
+      </form>
+    </div>
+  </div>
+</center>
+ 
+</div>
+
+
+
+
+</body>
+<script type="module" src="./blog.js"></script>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+<!-- Add this within the <head> section -->
+
+    
+</html>
+
